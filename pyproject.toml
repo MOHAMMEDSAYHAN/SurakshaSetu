@@ -1,0 +1,13 @@
+[project]
+name = "surakshasetu"
+version = "0.1.0"
+description = "Reference implementation of the SurakshaSetu offline Verdict Engine"
+requires-python = ">=3.10"
+dependencies = ["cryptography>=42.0"]
+
+[tool.setuptools.packages.find]
+where = ["reference"]
+
+[tool.pytest.ini_options]
+pythonpath = ["reference", "tools"]
+testpaths = ["tests"]

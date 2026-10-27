@@ -1,0 +1,20 @@
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+keys/
+*.pem
+pack*.json
+# Android
+android/.gradle/
+android/build/
+android/app/build/
+local.properties
+*.apk
+*.aab
+.idea/
+*.iml
+# models (large; fetched by script)
+models/*.bin
+models/*.tflite
+.DS_Store
